@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'SF_Pro_Display';
+  src: url('../fonts/SF-Pro-Display-Regular\ \(1\).woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('../fonts/ofont.ru_Lemon\ \(1\).woff') format('woff');
+  font-style: normal;
+  font-weight: 900;
+}

@@ -1,21 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chance_and_Choice</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/scripts.js" defer></script>
-</head>
-<body>
-    <div id="burger"></div>
+  </head>
+  <body>
+    <section class="section1">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide1"></div>
+          <div class="swiper-slide2"></div>
+          <div class="swiper-slide3"></div>
+        </div>
+      </div>
 
-    <nav class="mainMenu">
-        <a class="mainMenuLink active" href="main.html">Главная</a>
+      <div id="burger"></div>
+
+      <nav class="mainMenu">
         <a class="mainMenuLink" href="about.html">О нас</a>
         <a class="mainMenuLink" href="catalog.html">Каталог</a>
         <a class="mainMenuLink" href="events.html">События</a>
         <a class="mainMenuLink" href="magazine.html">Журнал</a>
-    </nav>
-</body>
+      </nav>
+
+      <p class="text1">
+        Chance <br />
+        &Choice
+      </p>
+      <p class="text2">Супермаркет судьбы</p>
+      <!-- <div class="wallpaper"></div> -->
+      <a class="button1" href="./about.html">За удачей</a>
+    </section>
+    <section class="section2">
+      <input
+        class="imp_email"
+        type="email_sub"
+        id="email"
+        placeholder="Почта"
+        style="border-color: #fff6d2"
+      />
+      <button class="knop" type="submit">Подписаться</button>
+      <p class="podpiska">Подпишись на рассылку</p>
+      <p class="tel">Тел : +7 812 456-78-91</p>
+      <p class="pochta">сhanceandсhoice@mail.ru</p>
+      <a class="telega" href="https://t.me/svetochkaveshaet"></a>
+      <a class="vk" href="https://vk.com/bebrtyt"></a>
+      <a class="githab" href="https://github.com/svetylekkk"></a>
+    </section>
+  </body>
 </html>
