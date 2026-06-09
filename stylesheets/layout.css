@@ -13,7 +13,17 @@ html {
   display: flex;
   flex-direction: row;
 }
-
+.logo {
+  position: absolute;
+  width: 6.6vw;
+  height: 6.6vw;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 1.3vw;
+  left: 1.3vw;
+  z-index: 3;
+}
 .mainMenu {
   background-color: #1a1a1a;
   display: flex;
@@ -36,50 +46,33 @@ html {
   transition: all ease 0.6s;
 }
 
-/* .wallpaper {
-  position: absolute;
-  width: 100vw;
-  height: 72vw;
-  background-image: url(../images/wallpaper.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
-.swiper {
-  width: 100vw;
-  height: 71vw;
+.slider {
+  width: 100%;
+  display: flex;
+  animation: slide 17s infinite;
 }
 
-.swiper-slide1 {
+.n1 {
   width: 100vw;
   height: 72vw;
   background-image: url(../images/wallpaper.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
-.swiper-slide2 {
+.n2 {
   width: 100vw;
   height: 72vw;
   background-image: url(../images/wall2.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
-.swiper-slide3 {
+.n3 {
   width: 100vw;
   height: 72vw;
-  text-align: center;
   background-image: url(../images/wall3.svg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .text1 {
   position: absolute;
   font-family: 'Lemon Milk';
@@ -130,7 +123,7 @@ input {
   height: 4.7vw;
   border-radius: 4vw;
   border: 0.3vw solid #fff6d2;
-  background: #1f1f1f;
+  background: #1a1a1a;
   transition: border-color 0.3s ease;
   color: #797672;
   font-family: 'SF_Pro_Display';
@@ -209,4 +202,361 @@ input {
 .githab {
   background-image: url(../images/git.svg);
   left: 14vw;
+}
+
+.sec1 {
+  width: 100vw;
+  height: 56vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.bagrus {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../images/bagrus.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sec2 {
+  width: 100vw;
+  height: 69vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff6d2;
+}
+
+.textik2,
+.textik1 {
+  position: absolute;
+  font-size: 2.2vw;
+  font-family: 'Lemon Milk';
+  color: #5d8bed;
+}
+
+.textik1 {
+  top: 25vw;
+  left: 17.5vw;
+}
+.textik2 {
+  top: 39.8vw;
+  right: 17.5vw;
+}
+
+.kar1 {
+  position: absolute;
+  background-image: url(../images/vinograd.svg);
+  width: 19vw;
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 70.3vw;
+  top: 5.8vw;
+}
+
+.kar2 {
+  position: absolute;
+  background-image: url(../images/chip1.svg);
+  width: 8vw;
+  height: 8vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 6.3vw;
+  top: 6.8vw;
+}
+
+.kar3 {
+  position: absolute;
+  background-image: url(../images/chip2.svg);
+  width: 11vw;
+  height: 11vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 82.3vw;
+  top: 53.8vw;
+}
+
+.kar4 {
+  position: absolute;
+  background-image: url(../images/capusta.svg);
+  width: 16.5vw;
+  height: 16.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 9vw;
+  top: 46.8vw;
+}
+
+.sec3 {
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff6d2;
+}
+
+.group1 {
+  position: absolute;
+  width: 75vw;
+  height: 37vw;
+  background-image: url(../images/Group1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  right: 21.6vw;
+  top: 10vw;
+}
+
+.group2 {
+  position: absolute;
+  width: 75vw;
+  height: 37vw;
+  background-image: url(../images/Group2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  left: 24.6vw;
+  top: 47vw;
+}
+
+.button2 {
+  width: 20vw;
+  height: 5.3vw;
+  background-color: #1a1a1a;
+  color: #fff6d2;
+  font-family: 'SF_Pro_Display';
+  font-size: 2.5vw;
+  position: absolute;
+  padding: 1.3vw 3.5vw;
+  border-radius: 4vw;
+  text-decoration: none;
+  left: 40.069vw;
+  top: 84vw;
+}
+
+.t1 {
+  position: absolute;
+  font-family: 'Lemon Milk';
+  font-size: 2.5vw;
+  top: 12vw;
+  left: 8.2vw;
+  color: #fff6d2;
+}
+
+.p1 {
+  position: absolute;
+  font-family: 'SF_Pro_Display';
+  font-size: 1.3vw;
+  top: 18.5vw;
+  left: 8.2vw;
+  color: #fff6d2;
+}
+
+.t2 {
+  position: absolute;
+  font-family: 'Lemon Milk';
+  font-size: 2.5vw;
+  top: 49vw;
+  right: 8.3vw;
+  color: #fff6d2;
+}
+
+.p2 {
+  position: absolute;
+  font-family: 'SF_Pro_Display';
+  font-size: 1.3vw;
+  right: 14.8vw;
+  top: 53vw;
+  color: #fff6d2;
+}
+
+.chipik1 {
+  position: absolute;
+  width: 15.6vw;
+  height: 15.6vw;
+  background-image: url(../images/chipik1.svg);
+  left: 69vw;
+  top: 4vw;
+}
+
+.chipik2 {
+  position: absolute;
+  width: 15.6vw;
+  height: 15.6vw;
+  background-image: url(../images/chipik2.svg);
+  top: 44vw;
+  left: 19vw;
+}
+
+.section_mag1 {
+  width: 100vw;
+  height: 80vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff6d2;
+}
+
+.magh1 {
+  position: absolute;
+  font-family: 'Lemon Milk';
+  font-size: 5.5vw;
+  color: #5d8bed;
+  top: 12vw;
+  left: 5.7vw;
+}
+
+.textmag1 {
+  position: absolute;
+  font-family: 'SF_Pro_Display';
+  font-size: 1.3vw;
+  left: 5.7vw;
+  top: 20vw;
+  color: #bf9bde;
+}
+
+.textmag2 {
+  position: absolute;
+  font-family: 'SF_Pro_Display';
+  font-size: 1.3vw;
+  color: #bf9bde;
+  right: 9.7vw;
+  top: 60vw;
+}
+
+.animtext {
+  position: absolute;
+  font-family: 'Lemon Milk';
+  font-size: 6.6vw;
+  top: 40vw;
+  color: #ff7db7;
+}
+
+.readbut {
+  width: 20vw;
+  height: 5.3vw;
+  background-color: #1a1a1a;
+  color: #fff6d2;
+  font-family: 'SF_Pro_Display';
+  font-size: 2.5vw;
+  position: absolute;
+  padding: 1.3vw 5.9vw;
+  border-radius: 4vw;
+  text-decoration: none;
+  right: 12vw;
+  top: 69vw;
+}
+
+.zin {
+  width: 45vw;
+  height: 35vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 43vw;
+  left: 10vw;
+}
+
+.zin2 {
+  width: 45vw;
+  height: 35vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 17vw;
+}
+
+.zin3 {
+  width: 50vw;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 13vw;
+  left: 30vw;
+}
+
+.zin4 {
+  width: 47vw;
+  height: 37vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 7vw;
+  right: 8vw;
+}
+.zin5 {
+  width: 55vw;
+  height: 45vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 22vw;
+  right: 36vw;
+}
+
+.zin6 {
+  width: 50vw;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 26vw;
+  left: 55vw;
+}
+
+.zin7 {
+  width: 53vw;
+  height: 43vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 28vw;
+  left: 35vw;
+}
+
+.zin8 {
+  width: 40vw;
+  height: 30vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 51vw;
+  left: 29vw;
+}
+
+.sec_c1 {
+  width: 100vw;
+  height: 136vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff6d2;
+}
+
+.h1cat {
+  position: absolute;
+  font-family: 'Lemon Milk';
+  font-size: 5.5vw;
+  color: #5d8bed;
+  top: 12vw;
+  left: 5.7vw;
 }
