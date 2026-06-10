@@ -13,6 +13,7 @@ html {
   display: flex;
   flex-direction: row;
 }
+
 .logo {
   position: absolute;
   width: 6.6vw;
@@ -102,10 +103,15 @@ html {
   padding: 2vw 4vw;
   border-radius: 4vw;
   text-decoration: none;
+  transition: all ease 0.6s;
   top: 45vw;
   left: 1.3vw;
 }
 
+.button1:hover {
+  color: #fff6d2;
+  background-color: #5d8bed;
+}
 .section2 {
   width: 100vw;
   height: 15vw;
@@ -149,10 +155,15 @@ input {
   background-color: #fff6d2;
   border-radius: 4vw;
   border: none;
+  transition: all ease 0.6s;
   top: 7.4vw;
   right: 1.3vw;
 }
-
+.knop:hover {
+  color: #fff6d2;
+  background-color: #1a1a1a;
+  border: 0.3vw solid #fff6d2;
+}
 .podpiska {
   position: absolute;
   font-family: 'Lemon Milk';
@@ -344,10 +355,14 @@ input {
   padding: 1.3vw 3.5vw;
   border-radius: 4vw;
   text-decoration: none;
+  transition: all ease 0.6s;
   left: 40.069vw;
   top: 84vw;
 }
-
+.button2:hover {
+  color: #fff6d2;
+  background-color: #5d8bed;
+}
 .t1 {
   position: absolute;
   font-family: 'Lemon Milk';
@@ -459,10 +474,15 @@ input {
   padding: 1.3vw 5.9vw;
   border-radius: 4vw;
   text-decoration: none;
+  transition: all ease 0.6s;
   right: 12vw;
   top: 69vw;
 }
 
+.readbut:hover {
+  color: #fff6d2;
+  background-color: #5d8bed;
+}
 .zin {
   width: 45vw;
   height: 35vw;
