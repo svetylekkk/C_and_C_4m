@@ -1,0 +1,250 @@
+/* планшет */
+@media screen and (max-width: 1023px) {
+  .section1 {
+    height: 112vw;
+  }
+
+  .mainMenu {
+    width: 66vw;
+    height: 5vw;
+    padding: 1.6vw 7vw;
+    border-radius: 3.5vw;
+    left: 32vw;
+    top: 2.6vw;
+    z-index: 2;
+  }
+
+  .mainMenuLink {
+    font-size: 2vw;
+  }
+  .logo {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 1.3vw;
+    left: 1.3vw;
+    z-index: 3;
+  }
+  .n1 {
+    width: 100vw;
+    height: 112vw;
+    background-image: url(../images/w1.svg);
+    background-size: cover;
+  }
+  .n2 {
+    width: 100vw;
+    height: 112vw;
+    background-image: url(../images/w2.svg);
+    background-size: cover;
+  }
+  .n3 {
+    width: 100vw;
+    height: 112vw;
+    background-image: url(../images/w3.svg);
+    background-size: cover;
+  }
+
+  .text1 {
+    left: 2.5vw;
+    top: 45vw;
+  }
+  .text2 {
+    font-size: 3vw;
+    top: 65vw;
+    left: 3vw;
+  }
+
+  .button1 {
+    width: 28vw;
+    height: 7.5vw;
+    top: 71vw;
+    left: 2.5vw;
+    font-size: 3.5vw;
+    padding: 1.9vw 5.9vw;
+  }
+
+  .close {
+    font-size: 38px;
+  }
+  .wT {
+    font-size: 2.7vw;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .button1:hover {
+    color: #fff6d2;
+    background-color: #5d8bed;
+  }
+
+  .section_mag1 {
+    height: 133vw;
+  }
+
+  .magh1 {
+    top: 14vw;
+    left: 10vw;
+    font-size: 7vw;
+  }
+
+  .textmag1 {
+    font-size: 2vw;
+    left: 10vw;
+    top: 23vw;
+  }
+
+  .textmag2 {
+    font-size: 2vw;
+    right: 7vw;
+    top: 102vw;
+  }
+
+  .animtext {
+    top: 71vw;
+  }
+
+  .readbut {
+    width: 28vw;
+    height: 7.5vw;
+    font-size: 4vw;
+    padding: 1.7vw 7.5vw;
+    top: 113vw;
+  }
+
+  .readbut:hover {
+    color: #fff6d2;
+    background-color: #5d8bed;
+  }
+  .zin {
+    width: 50vw;
+    height: 40vw;
+    top: 81vw;
+    left: 2vw;
+  }
+
+  .zin2 {
+    width: 60vw;
+    height: 50vw;
+    top: 40vw;
+  }
+
+  .zin3 {
+    width: 60vw;
+    height: 50vw;
+    top: 33vw;
+    left: 25vw;
+  }
+
+  .zin4 {
+    width: 60vw;
+    height: 50vw;
+    top: 29vw;
+    left: 49vw;
+  }
+  .zin5 {
+    width: 65vw;
+    height: 55vw;
+    top: 55vw;
+    right: 36vw;
+  }
+
+  .zin6 {
+    width: 55vw;
+    height: 45vw;
+    top: 56vw;
+    left: 55vw;
+  }
+
+  .zin7 {
+    width: 58vw;
+    height: 48vw;
+    top: 54vw;
+    left: 35vw;
+  }
+
+  .zin8 {
+    width: 50vw;
+    height: 40vw;
+    top: 76vw;
+    left: 42vw;
+  }
+
+  .sec2 {
+    width: 100vw;
+    height: 112vw;
+  }
+  .kar4 {
+    position: absolute;
+    width: 19.5vw;
+    height: 19.5vw;
+    top: 87.8vw;
+  }
+  .kar3 {
+    width: 13vw;
+    height: 13vw;
+    left: 80.3vw;
+    top: 78.8vw;
+  }
+  .kar1 {
+    width: 22vw;
+    height: 21vw;
+    left: 70.3vw;
+    top: 7.8vw;
+  }
+  .kar2 {
+    width: 11vw;
+    height: 11vw;
+  }
+
+  .textik1 {
+    top: 45vw;
+    left: 17.5vw;
+  }
+  .textik2 {
+    top: 59.8vw;
+    right: 17.5vw;
+  }
+
+  .d3_2 {
+    width: 35.5vw;
+    height: 33vw;
+    z-index: 3;
+  }
+  .d3_1 {
+    width: 36.8vw;
+    height: 32.8vw;
+  }
+
+  .t1 {
+    font-size: 2.7vw;
+  }
+
+  .p1 {
+    font-size: 1.7vw;
+    top: 18.7vw;
+  }
+
+  .t2 {
+    font-size: 2.7vw;
+  }
+
+  .p2 {
+    font-size: 1.7vw;
+    right: 11.2vw;
+    top: 54vw;
+  }
+
+  .but_cat {
+    margin-top: -6.6vw;
+    margin-left: 5.5vw;
+  }
+  .but_cat:hover {
+    background-color: #ff7db7;
+  }
+}

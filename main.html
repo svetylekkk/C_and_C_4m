@@ -19,11 +19,13 @@
         <a class="mainMenuLink" href="magazine.html">Журнал</a>
       </nav>
 
-      <div class="slider">
-        <img class="img n1" src="../C_and_C_4m/images/wallpaper.svg" alt="" />
-        <img class="img n2" src="../C_and_C_4m/images/wall2.svg" alt="" />
-        <img class="img n3" src="../C_and_C_4m/images/wall3.svg" alt="" />
-        <img class="img n1" src="../C_and_C_4m/images/wallpaper.svg" alt="" />
+      <div class="slider-wrapper">
+        <div class="slider">
+          <div class="n1"></div>
+          <div class="n2"></div>
+          <div class="n3"></div>
+          <div class="n1"></div>
+        </div>
       </div>
 
       <p class="text1">
@@ -42,19 +44,26 @@
         placeholder="Почта"
         style="border-color: #fff6d2"
       />
-      <button class="knop" type="submit">Подписаться</button>
-      <div class="modalWindow" style="display: none">
-        <div class="window">
-          Спасибо,что выбрали нас <br />
-          Мы с вами свяжемся.
-        </div>
-      </div>
       <p class="podpiska">Подпишись на рассылку</p>
       <p class="tel">Тел : +7 812 456-78-91</p>
       <p class="pochta">сhanceandсhoice@mail.ru</p>
       <a class="telega" href="https://t.me/svetochkaveshaet"></a>
       <a class="vk" href="https://vk.com/bebrtyt"></a>
       <a class="githab" href="https://github.com/svetylekkk"></a>
+      <!-- Триггер/Открыть модальный -->
+      <button class="knop" id="myBtn" type="submit">Подписаться</button>
+
+      <!-- Модальный -->
+      <div id="myModal" class="modal">
+        <!-- Модальное содержание -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="wT">
+            Спасибо,что выбрали нас <br />
+            Мы с вами свяжемся.
+          </p>
+        </div>
+      </div>
     </section>
   </body>
 </html>

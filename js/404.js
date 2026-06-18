@@ -8,3 +8,11 @@ function parallax() {
     main.style.transform = `translate(${x}px, ${y}px)`
   })
 }
+
+back()
+
+function back() {
+  document.querySelector('.link').addEventListener('click', () => {
+    window.history.back()
+  })
+}
