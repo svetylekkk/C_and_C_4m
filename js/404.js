@@ -14,5 +14,6 @@ back()
 function back() {
   document.querySelector('.link').addEventListener('click', () => {
     window.history.back()
+    console.log(window.history.length())
   })
 }
