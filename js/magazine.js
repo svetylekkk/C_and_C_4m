@@ -281,3 +281,13 @@ window.onclick = function (event) {
     modal.style.display = 'none'
   }
 }
+
+burger()
+
+function burger() {
+  let burger = document.querySelector('#burger')
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('active')
+  })
+}

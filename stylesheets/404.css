@@ -72,3 +72,46 @@
   top: 42vw;
   left: 33vw;
 }
+
+/* мобилка */
+@media screen and (max-width: 767px) {
+  .error {
+    height: 216vw;
+  }
+  .link {
+    width: 52vw;
+    height: 14vw;
+    font-size: 5.5vw;
+    padding: 3vw 13vw;
+    border-radius: 14vw;
+    transition: all ease 0.6s;
+    top: 130vw;
+    left: 23.43vw;
+  }
+  .bagr {
+    position: absolute;
+    width: 100vw;
+    height: 210vw;
+    background-image: url(../images/errwal.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .error_404 {
+    font-size: 38vw;
+    top: 71.498vw;
+    left: 11.111vw;
+  }
+
+  .text_er {
+    font-size: 4.8vw;
+    top: 117vw;
+    left: 27.155vw;
+  }
+  .logo {
+    width: 15.4vw;
+    height: 15.4vw;
+    top: 3vw;
+    left: 3vw;
+    z-index: 3;
+  }
+}

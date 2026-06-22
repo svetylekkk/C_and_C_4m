@@ -28,13 +28,13 @@ html {
 .mainMenu {
   background-color: #1a1a1a;
   display: flex;
-  width: 52.5vw;
+  width: 39.5vw;
   height: 4vw;
   padding: 1.1vw 5.5vw;
   border-radius: 3.5vw;
   justify-content: space-between;
   position: absolute;
-  left: 45vw;
+  left: 58vw;
   top: 2.6vw;
   z-index: 2;
 }
